@@ -1,0 +1,10 @@
+{
+  "displayName": "Unit tests: Month class",
+  "modulePaths": ["test/*.spec.js"],
+  "modulePathIgnorePatterns": [
+    "notes/",
+    "development/"
+  ],
+  "testEnvironment": "node",
+  "verbose": true
+}

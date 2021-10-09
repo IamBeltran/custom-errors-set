@@ -1,0 +1,60 @@
+{
+  "files.associations": {
+    ".git-commit-message": "git-commit",
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    /**/
+    ".github": true,
+    ".husky": true,
+    "node_modules": true,
+    "docs": true,
+    ".babelrc": true,
+    ".editorconfig": true,
+    ".eslintignore": true,
+    ".eslintrc": true,
+    ".eslintrc.*": true,
+    ".git-commit-message": true,
+    ".gitattributes": true,
+    ".gitignore": true,
+    ".huskyrc": true,
+    ".lintstagedrc": true,
+    ".npmignore": true,
+    ".prettierignore": true,
+    ".prettierrc": true,
+    ".prettierrc.json": true,
+    "CHANGELOG.md":true,
+    "ava.config.*": true,
+    ".stylelintrc": true,
+    "COMMIT_EDITMSG": true,
+    "commitlint.config.*": true,
+    "gulpfile.js": true,
+    "jest.config.*": true,
+    "jsdoc.config.*": true,
+    "LICENSE": true,
+    "nodemon.json": true,
+    "package-lock.json": true,
+    "yarn.lock": true,
+    "yarn-error.log": true,
+    "README.md": false,
+    "webpack.config.*": true
+    /**/
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/bazel-out": true,
+    "**/dist": true
+  },
+  "[markdown]": {
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.parameterHints.enabled": true,
+    "editor.quickSuggestions": true,
+    "editor.snippetSuggestions": "inline",
+  }
+}

@@ -11,8 +11,10 @@
     /**/
     ".github": true,
     ".husky": true,
-    "node_modules": true,
+    "dist": true,
     "docs": true,
+    "node_modules": true,
+    "webpack":true,
     ".babelrc": true,
     ".editorconfig": true,
     ".eslintignore": true,

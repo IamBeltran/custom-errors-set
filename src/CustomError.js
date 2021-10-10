@@ -87,7 +87,7 @@ class CustomError extends Error {
    */
   addDetails(details) {
     if (!isObject(details)) {
-      throw new TypeError(`The ${this.name}.details value must be type Object`);
+      throw new TypeError(`The 'details' value must be type Object`);
     }
     const entries = Object.entries(details).filter(([key]) => !NOT_ALLOWED.has(key));
     const filtered = Object.fromEntries(entries);

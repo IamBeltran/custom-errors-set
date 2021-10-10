@@ -58,7 +58,7 @@ class CustomError extends Error {
       throw new TypeError('The message value must be type String');
     }
     super(message);
-    // Fix: CustomError [name]:
+    // ⇒ FIX: CustomError [name]:
     this.name = `${name}`.toLocaleUpperCase();
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, CustomError);
@@ -76,7 +76,7 @@ class CustomError extends Error {
    * @throws
    * @memberof CustomError
    * @param {object} details - The Error details.
-   * @returns {this} TODO ADD DESCRIPTION.
+   * @returns {this} The customError with details.
    * @example const message = 'The PORT value is wrong, must be of type number';
    * const PORT_SERVER_ERROR = new CustomError('ServerError', message);
    *

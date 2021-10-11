@@ -1,5 +1,5 @@
 /**
- * @file Manages MonthError module, create specific error types with custom
+ * @file Manages CustomError module, create specific error types with custom
  * messages.
  */
 
@@ -21,13 +21,13 @@ const NOT_ALLOWED = new Set(['__proto__', 'prototype', 'constructor']);
 /**
  * The `CustomError` class create specific error types with custom messages.
  *
- * @class    MonthError
+ * @class    CustomError
  * @augments Error
  *
  */
 class CustomError extends Error {
   /**
-   * Creates an instance of `MonthError`.
+   * Creates an instance of `CustomError`.
    *
    * The `constructor` method requires the `name` and `message` parameters, both
    * parameters must be type `string`.
@@ -98,7 +98,7 @@ class CustomError extends Error {
 
 // ━━	EXPORT MODULE	━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 /**
- * MonthError module, create specific error types with custom messages.
+ * CustomError module, create specific error types with custom messages.
  *
  * @module CustomError
  */

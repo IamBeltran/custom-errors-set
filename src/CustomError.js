@@ -19,7 +19,7 @@ const NOT_ALLOWED = new Set(['__proto__', 'prototype', 'constructor']);
 
 // ━━	MODULE	━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 /**
- * The `CustomError` class create specific error types with custom messages.
+ * The `CustomError` class creates specific errors types with custom messages.
  *
  * @class    CustomError
  * @augments Error

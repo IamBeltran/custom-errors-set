@@ -13,7 +13,7 @@ const CUSTOM_ERROR_THROW = [
   {
     name: {
       describe: 'CustomError.prototype.constructor: throws',
-      test: "An exception 'TypeError' is thrown if 'name' value is not of type 'string'",
+      test: "An 'TypeError' exception is thrown if 'name' value is not of type 'string'",
     },
     options: { name: true, message: MESSAGE },
     error: TypeError,
@@ -21,7 +21,7 @@ const CUSTOM_ERROR_THROW = [
   {
     name: {
       describe: 'CustomError.prototype.constructor: throws',
-      test: "An exception 'TypeError' is thrown if 'message' value is not of type 'string'",
+      test: "An 'TypeError' exception is thrown if 'message' value is not of type 'string'",
     },
     options: { name: NAME, message: true },
     error: TypeError,
@@ -38,7 +38,7 @@ describe.each(CUSTOM_ERROR_THROW)('$name.describe', ({ name, options, error }) =
 
 describe('CustomError.prototype.addDetails: throws', () => {
   const PORT_ERROR = new CustomError(NAME, MESSAGE);
-  test("An exception 'TypeError' is thrown if 'details' value is not of type 'Object'", () => {
+  test("An 'TypeError' exception is thrown if 'details' value is not of type 'Object'", () => {
     expect(() => PORT_ERROR.addDetails(false)).toThrow(TypeError);
   });
 });

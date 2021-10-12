@@ -1,5 +1,5 @@
 {
-  "displayName": "Unit tests: Month class",
+  "displayName": "Unit tests: CustomErrorsSet",
   "modulePaths": ["test/*.spec.js"],
   "modulePathIgnorePatterns": [
     "notes/",

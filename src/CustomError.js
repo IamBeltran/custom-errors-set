@@ -58,8 +58,8 @@ class CustomError extends Error {
       throw new TypeError('The message value must be type String');
     }
     super(message);
-    // ⇒ FIX: CustomError [name]:
-    this.name = `${name}`.toLocaleUpperCase();
+    // ⇒ FIX: CustomError [name]: .toLocaleUpperCase()
+    this.name = name;
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, CustomError);
     }

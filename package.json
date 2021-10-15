@@ -44,8 +44,7 @@
     "test": "cross-env NODE_ENV=test jest",
     "lint": "npx eslint",
     "prepare": "husky install",
-    "build": "npx rimraf dist && webpack",
-    "prepublish": "npm test && npm run build"
+    "prepublish": "npm test"
   },
   "dependencies": {},
   "devDependencies": {

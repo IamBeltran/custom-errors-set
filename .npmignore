@@ -14,6 +14,7 @@ log/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.tgz
 
 # Ignore IDE specific file
 .idea/
@@ -33,6 +34,7 @@ yarn-error.log*
 .gitattributes
 .gitignore
 COMMIT_EDITMSG
+.git-commit-message
 
 # next.js build output
 .next
@@ -79,12 +81,7 @@ gulpfile.js
 nodemon.json
 
 # Ignore docs files
-# ./docs/CHANGELOG.md
-# ./docs/CHANGES.md
-# ./docs/GITHUB.md
-# ./docs/NOTICE.md
-# ./docs/NOTES.md
-# ./docs/ICON.png
+
 
 # Ignore docs directory
 docs/

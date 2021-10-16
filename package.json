@@ -1,6 +1,6 @@
 {
   "name": "custom-errors-set",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "description": "Create a custom errors set for all application specific errors",
   "keywords": [
@@ -39,7 +39,7 @@
     }
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test jest",
     "lint": "npx eslint",

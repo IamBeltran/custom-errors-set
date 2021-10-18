@@ -113,15 +113,15 @@ class CustomErrorsSets {
    * The `name` value its the name of the custom error, and `messages` are
    * all error messages to be used in the set.
    *
-   * - An `TypeError` exception is thrown if `name` value is not of type
+   * - A `TypeError` exception is thrown if `name` value is not of type
    * `string`.
    *
-   * - An `TypeError` exception is thrown if `messages` value is not of type
+   * - A `TypeError` exception is thrown if `messages` value is not of type
    * `Object`.
    *
-   * - An `TypeError` exception is thrown if `messages` is an empty `Object`.
+   * - A `TypeError` exception is thrown if `messages` is an empty `Object`.
    *
-   * - An `TypeError` exception is thrown if any property of `messages` is not
+   * - A `TypeError` exception is thrown if any property of `messages` is not
    * of type string or function.
    *
    * @throws

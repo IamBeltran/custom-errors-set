@@ -36,10 +36,10 @@ class CustomError extends Error {
    * giving specificity to the error. The `message` parameter is the message of
    * the `Customerror`.
    *
-   * - An `TypeError` exception is thrown if `name` value is not of type
+   * - A `TypeError` exception is thrown if `name` value is not of type
    * `string`.
    *
-   * - An `TypeError` exception is thrown if `message` value is not of type
+   * - A `TypeError` exception is thrown if `message` value is not of type
    * `string`.
    *
    * @throws
@@ -70,7 +70,7 @@ class CustomError extends Error {
    *
    * The method requires the `details` parameter, must be type `Object`.
    *
-   * - An `TypeError` exception is thrown if `details` value is not of type
+   * - A `TypeError` exception is thrown if `details` value is not of type
    * `Object`.
    *
    * @throws

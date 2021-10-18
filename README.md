@@ -73,10 +73,10 @@ Parameters Description:
 
 Throws:
 
-- An `TypeError` exception is thrown if `name` value is not of type `string`.
-- An `TypeError` exception is thrown if `messages` value is not of type `Object`.
-- An `TypeError` exception is thrown if `messages` is an empty `Object`.
-- An `TypeError` exception is thrown if any property of `messages` is not of type `string` or `function`.
+- A `TypeError` exception is thrown if `name` value is not of type `string`.
+- A `TypeError` exception is thrown if `messages` value is not of type `Object`.
+- A `TypeError` exception is thrown if `messages` is an empty `Object`.
+- A `TypeError` exception is thrown if any property of `messages` is not of type `string` or `function`.
 
 ## Constructor `new customError(name, message)`
 
@@ -95,9 +95,9 @@ Parameters Description:
 
 Throws:
 
-- An `TypeError` exception is thrown if `name` value is not of type `string`.
+- A `TypeError` exception is thrown if `name` value is not of type `string`.
 
-- An `TypeError` exception is thrown if `message` value is not of type `string`.
+- A `TypeError` exception is thrown if `message` value is not of type `string`.
 
 ### Example
 
@@ -120,7 +120,7 @@ Parameters Description:
 
 Throws:
 
-- An `TypeError` exception is thrown if `details` value is not of type `Object`.
+- A `TypeError` exception is thrown if `details` value is not of type `Object`.
 
 ## Contributing
 
